@@ -1,0 +1,113 @@
+@media screen and (max-width: 480px) {
+    .indent {
+        padding: 0 20px;
+        width: 100%;
+    }
+
+    h1 {
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 65px;
+        margin: 27px 0;
+    }
+
+    h2 {
+        font-weight: bold;
+        font-size: 35px;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    h3 {
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 25px;
+        margin: 24px 0 10px;
+        text-align: center;
+    }
+
+    h4 {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+
+    .header-top__menu {
+        display: none;
+    }
+
+    .mobile-button {
+        display: flex;
+    }
+
+
+    .first-screen__content, .info-screen, .advantages-screen__grid, .plans-screen__grid, .partners-screen, .hub-screen, .get-started-screen__window {
+        flex-direction: column;
+    }
+
+    .first-screen__left, .first-screen__right, .info-screen__img, .info-screen__text, .hub-screen__text {
+        width: 100%;
+    }
+
+    .info-screen, .advantages-screen, .plans-screen {
+        margin-top: 200px;
+        margin-bottom: 0;
+    }
+
+    .first-screen__left p {
+        margin-bottom: 30px;
+    }
+
+    .first-screen__button {
+        position: initial;
+        margin: 25px 0 0;
+        text-align: center;
+    }
+
+    .first-screen {
+        border: none;
+    }
+
+    .advantages-screen__grid img, .advantages-screen button, .hub-screen__button, .get-started-screen__button {
+        display: block;
+        margin: auto;
+    }
+
+    .plans-screen__grid {
+        margin-top: 30px;
+    }
+
+    .plans-screen__grid > div {
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .partners-screen__text, .get-started-screen__window {
+        text-align: center;
+    }
+
+    .partners-screen__logos {
+        justify-content: center;
+    }
+
+    .partners-screen__logos {
+        margin-bottom: 50px;
+    }
+
+    .hub-screen__img {
+        display: none;
+    }
+    .get-started-screen, .get-started-screen__window__text p{
+        margin-bottom: 60px;
+    }
+    .footer_logo{
+        padding-top: 50px;
+    }
+    .footer_menu {
+        column-gap: 15px;
+    }
+    .footer__privacy-policy__nav a{
+        font-size: 14px;
+    }
+}
